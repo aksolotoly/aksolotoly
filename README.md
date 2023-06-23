@@ -16,20 +16,9 @@ width="70" height="70"/> &nbsp;
 width="70" height="70"/> &nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original-wordmark.svg"
 width="70" height="70"/> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original-wordmark.svg"
-width="70" height="70"/> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original-wordmark.svg"
-width="70" height="70"/> &nbsp;
 
-
-Here are some ideas to get you started:
-
-- 🔭 Прохождение курса Яндекс Практикум 
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Опыт
+- [Итоговый проект в ЯП](https://docs.google.com/spreadsheets/d/1Xefsu3xH7FT-J4F147Q0lpUwmcu8wbXv/edit?usp=sharing&ouid=106055624614592533508&rtpof=true&sd=true)
+- [Спринты ЯП](https://drive.google.com/drive/folders/1-eVGT3KRcVfhNrQM0oKn8ls_YbJtRCk-?usp=sharing)
+- [Пример работы с API сервиса Traccar](https://drive.google.com/file/d/1ofRVhcgDXOP9QCaI1_u3_mD9HmDWA0Ur/view?usp=sharing)
+- [Mind map](https://drive.google.com/drive/folders/1520nv8z3w68lSLsub03GS5euNzVHN5rY?usp=sharing)
