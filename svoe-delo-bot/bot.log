@@ -1,15 +1,11 @@
-Bot started
-/workspace/svoe-delo-bot/node_modules/grammy/out/core/error.js:47
-    return new GrammyError(`Call to '${method}' failed!`, err, method, payload);
-           ^
-
-GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)
+Failed to start bot: GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)
     at toGrammyError (/workspace/svoe-delo-bot/node_modules/grammy/out/core/error.js:47:12)
     at ApiClient.callApi (/workspace/svoe-delo-bot/node_modules/grammy/out/core/client.js:97:48)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
     at async Bot.fetchUpdates (/workspace/svoe-delo-bot/node_modules/grammy/out/bot.js:422:27)
     at async Bot.loop (/workspace/svoe-delo-bot/node_modules/grammy/out/bot.js:393:33)
-    at async Bot.start (/workspace/svoe-delo-bot/node_modules/grammy/out/bot.js:314:9) {
+    at async Bot.start (/workspace/svoe-delo-bot/node_modules/grammy/out/bot.js:314:9)
+    at async file:///workspace/svoe-delo-bot/src/index.js:106:3 {
   method: 'getUpdates',
   payload: { offset: 1, limit: undefined, timeout: 30, allowed_updates: [] },
   ok: false,
@@ -17,9 +13,8 @@ GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other ge
   description: 'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running',
   parameters: {}
 }
-
-Node.js v22.16.0
-: {}
+ct: terminated by other getUpdates request; make sure that only one bot instance is running',
+  parameters: {}
 }
 
 Node.js v22.16.0

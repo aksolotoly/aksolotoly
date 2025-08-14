@@ -100,5 +100,12 @@ bot.catch((err) => {
 	console.error('Bot error:', err);
 });
 
-bot.start();
-console.log('Bot started');
+(async () => {
+	try {
+		await bot.api.deleteWebhook({ drop_pending_updates: true });
+		await bot.start();
+		console.log('Bot started');
+	} catch (error) {
+		console.error('Failed to start bot:', error);
+	}
+})();
