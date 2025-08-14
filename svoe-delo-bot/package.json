@@ -1,0 +1,25 @@
+{
+  "name": "svoe-delo-bot",
+  "version": "1.0.0",
+  "description": "Telegram-бот \"Своё дело\": 7-дневный помощник по смене профессии",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["telegram", "bot", "career", "ikigai", "self-help"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@grammyjs/conversations": "^2.1.0",
+    "better-sqlite3": "^12.2.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^17.2.1",
+    "grammy": "^1.37.0",
+    "pdfkit": "^0.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
